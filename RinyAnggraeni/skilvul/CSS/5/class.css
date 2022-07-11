@@ -1,0 +1,6 @@
+/* class bisa digunakan dalam lebih dari satu element. Serta sebuah element bisa memiliki lebih dari satu class. */
+
+.highlight {
+    background-color: whitesmoke;
+    color: black;
+}

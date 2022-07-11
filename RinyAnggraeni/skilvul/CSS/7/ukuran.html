@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        background-color: lightgrey;
+        width: 300px;
+        height: 100px;
+        border: 15px solid black;
+        padding: 50px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Contoh Box Model</h2>
+
+    <p>
+        Tulisan ini adalah konten dari box. Konten sendiri memiliki lebar
+        (width) sebesar 300px dan tinggi (height) sebesar 100px. Pada box, kita
+        menambahkan padding sebesar 50px, border berwarna hitam sebesar 15px,
+        dan margin sebesar 20px.
+   </p>
+  </body>
+</html>
+
+<!-- CATATAN
+properti width dan height yang kita tulis berfungsi untuk MENGATUR lebar dan tinggi dari KONTEN dalam element <p>, BUKAN lebar dan tinggi dari SELURUH element <p> itu sendiri -->
+
+    <!-- KETERANGAN -->
+
+    <!-- Lebar box = lebar konten (width) + padding kiri (left padding) + padding kanan (right padding) + border kiri (left border) + border kanan (right border) + margin kiri (left margin) + margin kanan (right margin)
+
+    Lebar box = 300px + 50px + 50px + 15px + 15px + 20px + 20px = 470px
+    
+    Sementara, total tinggi box sebenarnya adalah:
+    
+    Tinggi box = tinggi konten (height) + padding atas (top padding) + padding bawah (bottom padding) + border atas (top border) + border bawah (bottom border) + margin atas (top margin) + margin bawah (bottom margin)
+    
+    Tinggi box = 100px + 50px + 50px + 15px + 15px + 20px + 20px = 270px -->

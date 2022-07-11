@@ -1,0 +1,29 @@
+<!-- Element dengan posisi relative akan diposisikan relatif dari posisi normalnya. 
+
+Kita bisa memberikan properti top, right, bottom, dan left pada element dengan posisi relative. Element lain di sekitar element dengan posisi relative tidak akan disesuaikan dengan ruang yang ditinggalkan oleh element. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .inline-block {
+        background: blue;
+        width: 100px;
+        height: 100px;
+        margin: 4px;
+        display: inline-block;
+      }
+        .relative {
+        position: relative;
+        top: 40px;}
+    </style>
+  </head>
+
+  <body>
+    <div>
+        <div class="inline-block"></div>
+        <div class="inline-block relative"></div>
+        <div class="inline-block"></div>
+    </div>
+  </body>
+</html>

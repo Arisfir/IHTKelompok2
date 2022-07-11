@@ -1,0 +1,17 @@
+display: none vs visibility: hidden
+
+Dengan properti display, kita bisa mengatur bagaimana box tersebut ditampilkan: apa box tersebut ditampilkan sebaris dengan box lain? atau satu box menempati satu baris penuh? bahkan kita juga bisa mengatur apakah box tersebut ditampilkan atau disembunyikan.
+
+
+display: none
+
+- mengganti-ganti nilai dari properti display, kita bisa mengatur untuk ditampilkan atau tidaknya element menu itu.
+
+- properti display: none, tampilan dari element di sekitarnya juga ikut berubah. Kenapa? Saat kita menggunakan properti itu, halaman web kita akan ditampilkan seolah-olah element tersebut tidak ada.
+
+
+visibility: hidden
+
+- Properti visibility mengatur ditampilkan atau tidaknya sebuah element.
+
+- Saat kita memberi nilai hidden pada properti visibility si gambar, ia akan tidak ditampilkan, namun ruang yang tadinya ia tempati tetap akan ada di situ. Karena ruang yang ia tempati masih ada, element paragraf di sebelahnya tidak akan berubah posisi.
