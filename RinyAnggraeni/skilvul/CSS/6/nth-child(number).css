@@ -1,0 +1,5 @@
+p:nth-child(2) {
+    background-color: pink; 
+}
+
+    /* Penghitungan child selalu dimulai dari 1 untuk child pertama, 2 untuk child kedua, dan seterusnya. */
