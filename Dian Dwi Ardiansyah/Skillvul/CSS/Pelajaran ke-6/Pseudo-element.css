@@ -1,0 +1,15 @@
+/* selector::pseudo-element {
+    property: nilai;
+  } */
+
+  /* JENIS-JENIS */
+
+/* ::before	Menyisipkan suatu konten sebelum element dari selector
+
+::after	Menyisipkan suatu konten setelah element dari selector
+
+::selection	Memberikan style pada bagian element yang diselect oleh pengguna
+
+::first-letter	Memberikan style pada huruf pertama pada element dari selector
+
+::first-line	Memberikan style pada baris pertama pada element dari selector */

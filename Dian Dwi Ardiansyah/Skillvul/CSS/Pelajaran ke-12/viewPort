@@ -1,0 +1,14 @@
+viewport adalah daerah pada layar yang menampilkan suatu konten. Dalam konteks kita kali ini, tentu viewport adalah daerah yang menampilkan halaman web yang sedang kita akses.
+
+ukuran viewport tidak selalu sama dengan resolusi layar perangkat.
+
+
+Untuk membuat halaman website menjadi responsif, maka kita perlu menambahkan meta data berikut ini di dalam element <head> di file HTML.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+Meta data di atas akan mengatur viewport dari halaman website, di mana meta data tersebut akan memberikan instruksi kepada browser untuk mengatur bagaimana dimensi dan skala dari halaman website kita.
+
+📝 Catatan:
+
+Tag <meta> digunakan untuk menulis info tentang suatu dokumen HTML seperti deskripsi, nama pengarang, keywords, dan tanggal terakhir dokumen diperbaharui. Tag <meta> tidak akan tampil di halaman HTML.

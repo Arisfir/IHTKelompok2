@@ -1,0 +1,5 @@
+a[href] {
+    background-color: whitesmoke;
+}
+
+/* ada 3 buah element <a>, tapi hanya 2 di antaranya yang memiliki attribute href. Jadi hanya element <a> kedua dan ketiga yang akan memiliki latar belakang berwarna hijau. */

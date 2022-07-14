@@ -1,0 +1,9 @@
+div * {
+    background-color: yellow;
+}
+
+/* div * itu menunjuk ke semua element yang berada di dalam sebuah <div>. */
+        /* <div>
+          <p>Namaku Riny</p>
+          <p>Saya tinggal di Indonesia</p>
+        </div> */
