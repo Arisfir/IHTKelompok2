@@ -1,0 +1,5 @@
+p {
+    font-size: 20px;
+}
+
+/* Jika kita ingin memberikan style pada semua element tertentu di website kita, maka kita bisa menggunakan nama tag element tersebut sebagai selector. */

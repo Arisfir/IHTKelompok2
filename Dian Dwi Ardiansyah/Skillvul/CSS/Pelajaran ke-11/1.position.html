@@ -1,0 +1,34 @@
+<!-- Secara default, seluruh properti position dari HTML element memiliki nilai static. 
+
+Element dengan properti tersebut tidak akan terpengaruh oleh properti top, bottom, left, dan right. Element tersebut akan selalu berada sesuai dengan alur normal penempatan element dalam halaman web. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position static</title>
+    <style>
+      .container {
+        background: lightgreen;
+        width: 600px;
+        height: 150px;
+      }
+
+      .yellow-boxes {
+        display: inline-block;
+        margin: 10px;
+        background: yellow;
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="yellow-boxes" style="top: 20px;"></div>
+      <div class="yellow-boxes" style="right: 20px;"></div>
+      <div class="yellow-boxes" style="bottom: 20px;"></div>
+      <div class="yellow-boxes" style="left: 20px;"></div>
+    </div>
+  </body>
+</html>

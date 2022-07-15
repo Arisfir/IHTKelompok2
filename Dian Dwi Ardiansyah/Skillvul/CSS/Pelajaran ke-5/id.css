@@ -1,0 +1,9 @@
+#firstParagraph {
+    border: solid black;
+  }
+  
+  #secondParagraph {
+    border: solid pink;
+  }
+
+  /* Satu element hanya bisa mempunyai satu buah id. Dan sebuah id sebaiknya tidak digunakan dalam lebih dari satu element pada tiap halaman. */
